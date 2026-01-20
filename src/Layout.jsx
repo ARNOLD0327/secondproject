@@ -4,13 +4,14 @@ import Footer from "./Companents.jsx/Footer"
 const Layout=({children})=>{
    return(<>
      <div>
-      <div className="navbar">{Navbar}</div>
+      <div className="navbar"><Navbar/></div>
       <div>
          {/* skjhdsdfjfkjjks */}
-         <div>{Sidebar}</div>
+         <div><Sidebar/></div>
          <div>{children}</div>
       </div>
-      <div>{Footer}</div>
+      <div><Footer/></div>
      </div>
    </>)
 }
+export default Layout;
